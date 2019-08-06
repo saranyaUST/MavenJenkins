@@ -28,7 +28,7 @@ public class TestCitizenService {
 		int expected = 0;
 
 		int actual = cService.computeAge(input);
-		assertTrue("expected value mismatched", expected == actual);
+		assertTrue("expected value matched", expected == actual);
 	}
 
 }
